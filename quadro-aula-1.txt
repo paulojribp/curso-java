@@ -1,0 +1,54 @@
+
+
+Java
+  > Línguagem de Programação
+    > Orientada a Objetos
+    > Robusta
+    > Lambda e Streams
+    > Mais completa em Frameworks
+      -> Hibernate
+      -> Spring
+      -> Hadoop
+
+  > Plataforma
+    > Ambiente de Execução
+    > JVM (Java Virtual Machine)
+      -> Controle de Enviroment (Plataforma)
+      -> Memória
+      -> Processamento
+    > JavaScript
+    > Ruby
+    > PHP
+    > Python
+    > Scala
+    > Clojure
+
+
+Palavras Reservadas
+  
+  enquanto for dia, deixe a janela aberta
+  se for noite, fecha a janela
+
+  O código é executado de cima para baixo!
+  Toda linguagem possui VARIÁVEIS!
+
+[java]
+  // 0 = fechada
+  // 1 = aberta
+  janela = 0
+  // booleano (true, false)
+  dia = true
+
+  hora = 10
+
+  while (dia == true) {
+    janela = 1
+
+    if (hora >= 18) {
+      janela = 0
+      dia = false
+    }
+
+  }
+    
+  print boa noite, hora de dormir!
