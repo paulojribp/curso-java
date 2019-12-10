@@ -11,8 +11,7 @@
 
 ### Exercício
 
-```
-Crie um objeto java que represente um Carro. Esse objeto deve ter as características de (cor, anoFabricacao, marca, modelo) e os comportamentos de (ligar, andar e acelerar). Nos comportamentos, você poderá definir o que irá fazer. (Ex: Imprimir que ligou, mudar as características e etc...)
-```
+
+> Crie um objeto java que represente um Carro. Esse objeto deve ter as características de (cor, anoFabricacao, marca, modelo) e os comportamentos de (ligar, andar e acelerar). Nos comportamentos, você poderá definir o que irá fazer. (Ex: Imprimir que ligou, mudar as características e etc...)
 
 Colocar o código no CollabCode no canal JavaDevZone [https://discord.gg/FP5UaAG](https://discord.gg/FP5UaAG)
