@@ -2,7 +2,7 @@ class Aula02 {
 	
 	public static void main(String[] args) {
 
-		int x = 25;
+		int x = 30;
 		int y = 25;
 
 		int soma = x + y;
@@ -15,7 +15,7 @@ class Aula02 {
 		boolean resultado = (soma != 50); // a soma é 50?
 
 		if (resultado) {
-			System.out.println("Soma é igual a 50");
+			System.out.println("Soma é diferente de 50");
 		}
 
 		
