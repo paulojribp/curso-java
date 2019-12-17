@@ -1,4 +1,6 @@
-class CaixaEletronico {
+package programa;
+
+public class CaixaEletronico {
 
     public static void main(String[] args) {
 
@@ -32,15 +34,15 @@ class CaixaEletronico {
 
 }
 
-class Conta {
+/* default */ class Conta {
 
-    private int numero;
+    public int numero;
 
     private String usuario;
 
     private double saldo; // Encapsulamento!
 
-    void saque(double valor) { // método == comportamento
+    public void saque(double valor) { // método == comportamento
         if (this.saldo >= valor) {
             this.saldo -= (valor + (valor * 0.005)) ;  // saque
         } else {
@@ -48,7 +50,7 @@ class Conta {
         }
     }
 
-    void deposito(double valor) {
+    public void deposito(double valor) {
         this.saldo += valor; // depósito
     }
 
