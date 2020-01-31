@@ -57,7 +57,7 @@ Você também pode dar uma olhada na documentaçao do github [criando uma pull r
 Obrigado às seguintes pessoas que contribuíram para este projeto.
 
 * [@paulojribp (Paulo Junior)](https://github.com/paulojribp)
-
+* [@EdsonLuiz (Nequinho)](https://github.com/EdsonLuiz)
 
 ## Contato
 
