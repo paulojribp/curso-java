@@ -6,11 +6,11 @@
     * Field;
     * Atributo;
 
-### Construtures
+### Construtores
 - As classes em java, possuem métodos chamados de construtores;
 - Todo construtor possui o mesmo nome da Classe;
 - E uma estrutura de método; Parênteses para receber os parâmetros; As chaves para definir comportamento;  
-- Também definem visibilidade; Exceto pelo package que não pode ser usado;
+- Também definem visibilidade;
 - Ao criar um construtor na classe, esse construtor **passa a ser obrigadotório**;
 - Toda classe java possui automaticamente um construtor que é: *`public`, sem parâmetros e sem implementação*; Chamado de construtor *default*;
 - Os construtores não possuem retorno explícito; Implicitamente eles sempre retornam uma instância da classe;

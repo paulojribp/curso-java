@@ -39,4 +39,8 @@ public class PessoaJuridica implements Pessoa {
 		}
 	}
 
+	public double calcularImposto(Produto produto) {
+		return this.tipoRegime.calcularImposto(produto);		
+	}
+
 }

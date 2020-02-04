@@ -10,7 +10,7 @@ public class PessoaFisica implements Pessoa {
 	public PessoaFisica(String nome, int idade) {
 		this.nome = nome;
 		this.idade = idade;
-	} 
+	}
 	
 	public PessoaFisica(String cpf) {
 		this.cpf = cpf;

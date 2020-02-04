@@ -7,4 +7,6 @@ public interface TipoRegime {
 	
 	double obterImposto();
 	
+	double calcularImposto(Produto produto);
+	
 }
