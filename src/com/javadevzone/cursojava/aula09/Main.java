@@ -1,5 +1,8 @@
 package com.javadevzone.cursojava.aula09;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -12,11 +15,9 @@ public class Main {
 		nequinho.getNotas().add(9.7);
 		nequinho.getNotas().add(9.1);
 		
-		
-		
 		Aluno lumus = new Aluno();
 		lumus.setNome("Lumus Code");
-		var notas = lumus.getNotas();
+		List<Double> notas = lumus.getNotas();
 		
 		notas.add(5d);
 		notas.add(3d);
@@ -24,6 +25,10 @@ public class Main {
 		notas.add(10.);
 		notas.add(9.5);
 		notas.add(8.5);
+		
+		for (int x=0; x<1000; x++) {
+			notas.add( x * x + 0.5);
+		}
 		
 		imprimeResultadoAnual(nequinho);
 		

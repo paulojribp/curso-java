@@ -1,13 +1,13 @@
 package com.javadevzone.cursojava.aula09;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Aluno {
 
 	private String nome;
-	private String endereco;
-	private ArrayList<Double> notas = new ArrayList<>(); // <Double> >> Generics
-	private double[] outrasNotas = new double[5];
+	private List<Double> notas = new LinkedList<>(); // <Double> >> Generics
 	
 	public String getNome() {
 		return nome;
@@ -17,11 +17,11 @@ public class Aluno {
 		this.nome = nome;
 	}
 
-	public ArrayList<Double> getNotas() {
+	public List<Double> getNotas() {
 		return notas;
 	}
 
-	public void setNotas(ArrayList<Double> notas) {
+	public void setNotas(List<Double> notas) {
 		this.notas = notas;
 	}
 
