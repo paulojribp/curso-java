@@ -26,6 +26,8 @@ public class Main {
 		notas.add(9.5);
 		notas.add(8.5);
 		
+		notas.get(5);
+		
 		for (int x=0; x<1000; x++) {
 			notas.add( x * x + 0.5);
 		}
